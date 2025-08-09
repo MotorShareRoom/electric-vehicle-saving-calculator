@@ -17,6 +17,7 @@ const formatNumber = (num: number, decimalPlaces = 2) => {
   return new Intl.NumberFormat('es-ES', {
     minimumFractionDigits: decimalPlaces,
     maximumFractionDigits: decimalPlaces,
+    useGrouping: true,
   }).format(num);
 };
 

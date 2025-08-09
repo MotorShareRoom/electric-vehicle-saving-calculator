@@ -16,6 +16,7 @@ body {
 
 h1 {
   text-align: center;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
   font-size: 1.9rem;
 }
@@ -288,16 +289,24 @@ input[type="range"]::-moz-range-thumb {
     flex-direction: column;
     align-items: center;
   }
+
+  h1 {
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
+  }
 }
 
 /* ==========================================================================
    Estilos para el pie de página
    -------------------------------------------------------------------------- */
 footer {
-  margin-top: 2rem;
   text-align: center;
   font-size: 0.9rem;
   color: #666;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
 }
 
 footer a {
@@ -307,5 +316,6 @@ footer a {
 }
 
 footer a:hover {
+  color: #fff;
   text-decoration: underline;
 }
