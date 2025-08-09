@@ -76,8 +76,8 @@ function App() {
   const [value9_2, setValue9_2] = useState(0);
   const [value10_1, setValue10_1] = useState(0);
   const [value10_2, setValue10_2] = useState(1100);
-  const [value11_1, setValue11_1]= useState(0);
-  const [value11_2, setValue11_2]= useState(7000);
+  const [value11_1, setValue11_1] = useState(0);
+  const [value11_2, setValue11_2] = useState(7000);
 
   // Costes iniciales
   const totalValue1_1 = value3_1 + value5_1 + value10_1 - value11_1;

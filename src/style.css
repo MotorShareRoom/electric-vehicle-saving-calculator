@@ -86,12 +86,13 @@ h2 {
    MODIFICACIÓN: Estilos para el h2 dentro de .block
    ----------------------------------------------------------- */
 .block h2 {
-    margin-top: 0;
-    margin-bottom: 0.5rem; /* Añadimos un pequeño margen inferior para separarlo */
-    padding-bottom: 0;
-    text-align: center;
-    /* Esto es lo que lo empuja hacia arriba */
-    align-self: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  /* Añadimos un pequeño margen inferior para separarlo */
+  padding-bottom: 0;
+  text-align: center;
+  /* Esto es lo que lo empuja hacia arriba */
+  align-self: center;
 }
 
 .block.final {
@@ -236,13 +237,19 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @keyframes octocat-wave {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: rotate(0);
   }
-  20%, 60% {
+
+  20%,
+  60% {
     transform: rotate(-25deg);
   }
-  40%, 80% {
+
+  40%,
+  80% {
     transform: rotate(10deg);
   }
 }
@@ -251,6 +258,7 @@ input[type="range"]::-moz-range-thumb {
   .github-corner:hover .octo-arm {
     animation: none;
   }
+
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
   }
@@ -271,6 +279,7 @@ input[type="range"]::-moz-range-thumb {
   .middle-row {
     flex-wrap: wrap;
   }
+
   .column {
     flex: 1 1 100%;
   }
